@@ -8,9 +8,8 @@ const PhoneAuthComponent = () => {
 
   const handleSendOTP = async () => {
     try {
-      // Generate OTP before the try-catch block
-      //hjfhdhbhjsjhgfksjhxbvbdhsfcjhkfgit remote -v
-      
+      // Generate OTP before the try-catch blockvbdhsfcjhkfgit remote -v
+
       const otp = generateRandomOTP();
 
       // Simulate redirection to the API link with phone number and OTP
