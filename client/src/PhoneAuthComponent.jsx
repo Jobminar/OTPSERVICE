@@ -8,9 +8,10 @@ const PhoneAuthComponent = () => {
 
   const handleSendOTP = async () => {
     try {
-      // Generate OTP before the try-catch block
-      const otp = generateRandomOTP();
+      // Generate OTP before the try-catch blockvbdhsfcjhkfgit remote -v
 
+      const otp = generateRandomOTP();
+      console.log("otp", otp);
       // Simulate redirection to the API link with phone number and OTP
       const apiLink = `https://login.digitalsms.biz/api/?apikey=282e30c82bdc97889c5de90dacfc555b&mobile=${phoneNumber}&msg=${otp}`;
 
